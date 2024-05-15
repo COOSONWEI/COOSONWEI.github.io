@@ -5,7 +5,7 @@ import Home from './components/Home.vue'
 </script>
 
 <template>
-  <div>
+  <div style="display: flex; justify-content: center; align-items: center;">
     <el-container>
     <el-header>
       <!-- <img alt="Vue logo" class="logo" src="./assets/myCanvas.jpeg" width="125" height="125" /> -->
@@ -25,6 +25,8 @@ import Home from './components/Home.vue'
 
       <Home />
     </el-main>
+
+    <el-footer>© 2024 <a href="https://coosonwei.github.io/">Weikkxin</a>  <a href="https://github.com/COOSONWEI">GitHub</a></el-footer>
   </el-container>
   </div>
   
