@@ -1,20 +1,33 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import Home from './components/Home.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  <div>
+    <el-container>
+    <el-header>
+      <!-- <img alt="Vue logo" class="logo" src="./assets/myCanvas.jpeg" width="125" height="125" /> -->
+      <div>
+        <a class="name" href="App.vue">
+          Weikkxin
+        </a>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
+        <a href="https://github.com/COOSONWEI" >
+          <img src="./assets/github-mark.png" alt="To GitHub" class="logo" width="20" height="20">
+        </a>
+      </div>
 
-  <main>
-    <TheWelcome />
-  </main>
+    </el-header>
+
+    <el-main>
+
+      <Home />
+    </el-main>
+  </el-container>
+  </div>
+  
 </template>
 
 <style scoped>
@@ -43,5 +56,19 @@ header {
     place-items: flex-start;
     flex-wrap: wrap;
   }
+}
+
+.name {
+  font-size: 24px !important;
+  color: #00006D !important;
+  font-weight: 900 !important;
+  font-family: 'Nunito Sans', sans-serif;
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
 }
 </style>
