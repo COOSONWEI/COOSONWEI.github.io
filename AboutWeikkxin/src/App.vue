@@ -1,23 +1,18 @@
 <script setup>
-import MyHeader from './components/MyHeader.vue'
-import Home from './components/Home.vue'
-import MyFooter from './components/MyFooter.vue'
+
 </script>
 
 <template>
-  <div class="common-layout">
-    <el-container style="display: flex; flex-direction: column;min-height: 90vh;">
-      <el-header>
-        <MyHeader />
-      </el-header>
-      <el-main>
-        <Home  />
-      </el-main>
-      <el-footer>
-        <MyFooter />
-      </el-footer>
-    </el-container>
+ <div class="home-container">
+    <div>
+    <router-view></router-view>
   </div>
+ </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.home-container {
+    width: 100%;
+    padding: 20px;
+}
+</style>
