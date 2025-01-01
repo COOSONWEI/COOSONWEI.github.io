@@ -12,7 +12,9 @@
   },
   "dependencies": {
     "element-plus": "^2.7.3",
+    "jquery": "^3.7.1",
     "md-editor-v3": "^5.0.2",
+    "swiper": "^11.1.15",
     "vue": "^3.4.21",
     "vue-router": "^4.4.5"
   },

@@ -1,4 +1,4 @@
-const express = require('express');
+import express from 'express';
 const app = express();
 const path = require('path');
 // 将打包后的静态文件目录设置为可访问的

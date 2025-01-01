@@ -1,0 +1,234 @@
+
+/* 首页角色板块 */
+.index-role {
+    padding-top: 4.69vw;
+    position: relative;
+    z-index: 2;
+}
+
+.index-role .index-role-zs-right {
+    position: absolute;
+    top: -19.02vw;
+    right: 0;
+    width: 37vw;
+}
+
+.index-role .index-role-zs-right .img1 {
+    position: absolute;
+    top: -4.30vw;
+    left: -10.94vw;
+    width: 48.46vw;
+    max-width: none;
+}
+
+.index-role .index-role-zs-right .img2 {
+    width: 100%;
+}
+
+.index-role .main-bg {
+    position: absolute;
+    top: 4.69vw;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.index-role .main-bg img {
+    width: 100%;
+    height: auto;
+}
+
+.index-role .role-main {
+    position: relative;
+    z-index: 2;
+    height: 42.31vw;
+}
+
+
+.index-role .index-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    width: 33.04vw;
+    height: 30.75vw;
+    background: url(../assets/imgs/index-title-bg.png) no-repeat 0 0/100% 100%;
+}
+
+.index-role .role-name {
+    position: relative;
+    width: 56.18vw;
+    height: 25.38vw;
+    overflow: hidden;
+    font-size: 28.22vw;
+    white-space: nowrap;
+    color: rgba(239, 239, 239, .1);
+    line-height: 22.25vw;
+}
+
+
+.index-role .role-lbt {
+    width: 80.77vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.index-role .role-lbt>img.bg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+}
+
+
+.index-role .role-lbt .swiper_big img.thumb {
+    width: 44vw;
+    height: auto;
+    transition: all 0.5s ease;
+    transform: translateX(50%);
+    opacity: 1;
+    position: relative;
+    z-index: 3;
+}
+
+/* .index-role .role-lbt .swiper_big .swiper-slide-active img.thumb {
+    opacity: 1;
+    transform: translateX(0);
+} */
+
+.index-role .role-lbt .swiper_big a.more-btn {
+    position: absolute;
+    right: 5.73vw;
+    bottom: 1.56vw;
+    z-index: 10;
+}
+
+.index-role .role-lbt .swiper_big .txt {
+    position: absolute;
+    right: 6.25vw;
+    bottom: 0;
+    z-index: 8;
+    width: 20.32vw;
+    height: 30.75vw;
+    padding-top: 7.56vw;
+    color: #222122;
+    text-align: right;
+}
+
+.index-project{
+    margin-top: 14.85vw;
+    position: relative;
+    z-index: 3;
+}
+
+.index-project .container{
+    display: flex;
+    position: relative;
+    align-items: start;
+}
+
+.index-project .project-left {
+    width: 36.74vw;
+    margin: 4.43vw 3.65vw 0 6.77vw;
+}
+
+.index-project .project-left .akiswiper {
+    border-radius: 2.08vw;
+}
+
+.index-project .project-left .akiswiper img {
+    width: 100%;
+    height: 20.84vw;
+    object-fit: cover;
+}
+
+.index-project .project-left .akiswiper a {
+    display: block;
+    position: relative;
+}
+
+.index-project .project-left .akiswiper .layer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2.50vw;
+    background: black;
+    font-size: 1.56vw;
+    color: rgba(255, 255, 255, .5);
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    font-style: italic;
+}
+
+
+.index-project .project-left .akiswiper .desc {
+    transform: translateX(36.71vw);
+}
+
+
+.index-project .project-left .akiswiper .desc.active {
+    animation: wordsLoop 20s linear infinite;
+}
+
+@keyframes wordsLoop {
+    0% {
+        transform: translateX(36.71vw);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.index-project .project-left .akiswiper .hidden-time, 
+.index-project .project-left .akiswiper .hidden-title{
+    display: none;
+}
+
+.index-project .project-left .project-aki-time{
+    margin-top: 1.56vw;
+    font-size: 0.94vw;
+    padding-left: 0.78vw;
+}
+.index-project .project-left .project-aki-title{
+    margin: 0.26vw 0 1.25vw;
+    font-size: 0.94vw;
+    padding-left: 0.78vw;
+}
+
+.index-project .project-left .fyq{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.index-project .project-left .fyq .swiper-pagination{
+    position: static !important;
+    margin: 0 !important;
+    width: auto !important;
+    padding-left: 0.78vw;
+    display: flex;
+    align-items: center;
+}
+
+.index-project .project-left .fyq .swiper-pagination span{
+    display: block;
+    width: 1.20vw;
+    height: 1.20vw;
+    margin: 0 1.25vw 0 0 !important;
+    background: #323333;
+    border: 0.26vw solid var(--themeColor2);
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.index-project .project-left .fyq .swiper-pagination span.swiper-pagination-bullet-active{
+    border-color: #323333;
+    background: var(--themeColor);
+}
