@@ -1,0 +1,40 @@
+:root {
+    /* 主色调 - 极简风格使用更柔和的色调 */
+    --primary-color: #2c2c2c;
+    --secondary-color: #6c6c6c;
+    --accent-color: #a0a0a0;
+    
+    /* 背景色 - 使用更纯净的白色和更淡的灰色 */
+    --bg-primary: #ffffff;
+    --bg-secondary: #fafafa;
+    
+    /* 文本颜色 - 减少对比度，更柔和 */
+    --text-primary: #2c2c2c;
+    --text-secondary: #6c6c6c;
+    --text-tertiary: #a0a0a0;
+    
+    /* 边框颜色 - 更淡的边框 */
+    --border-color: #f0f0f0;
+    
+    /* 阴影 - 更轻微的阴影效果 */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.02);
+    --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.03);
+    
+    /* 圆角 - 保持一致性 */
+    --radius-sm: 0.125rem;
+    --radius: 0.25rem;
+    --radius-lg: 0.5rem;
+    
+    /* 间距 - 保持不变但增加一些大间距选项 */
+    --spacing-1: 0.25rem;
+    --spacing-2: 0.5rem;
+    --spacing-3: 0.75rem;
+    --spacing-4: 1rem;
+    --spacing-6: 1.5rem;
+    --spacing-8: 2rem;
+    --spacing-12: 3rem;
+    --spacing-16: 4rem;
+    --spacing-24: 6rem;
+    --spacing-32: 8rem;
+    --spacing-40: 10rem;
+}
